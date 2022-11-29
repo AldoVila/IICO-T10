@@ -24,7 +24,17 @@ int main ()
 	 NS3=NS1+NS2;
 	 printf("El resultado es:%i",NS3);
 	}
-	else
+	else(Opcion=2);
+	{printf("\nResta\n");
+	 printf("Introduza el primer numero: ");
+	 scanf("%i",&NR1);
+	 printf("Introduza el segundo numero: ");
+	 scanf("%i",&NR2);
+	 NR3=NR1-NR2;
+	 printf("El resultado es:%i",NR3);
+	}
+	
 	printf("\nIngrese un numero valido");
+	
 return 0;
 }
