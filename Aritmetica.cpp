@@ -13,7 +13,18 @@ int main ()
 	printf("\nEl numero 4 para realizar divisiones de 2 digitos.\n");
 	printf("\nEl numero de lo que desea que ocurra.\n");
 	printf("\n\n");
-	scanf("%i", Opcion);
-	printf("%i",Opcion);
+	scanf("%i", &Opcion);
+	
+	if(Opcion=1)
+	{printf("\nSuma\n");
+	 printf("Introduza el primer numero: ");
+	 scanf("%i",&NS1);
+	 printf("Introduza el segundo numero: ");
+	 scanf("%i",&NS2);
+	 NS3=NS1+NS2;
+	 printf("El resultado es:%i",NS3);
+	}
+	else
+	printf("\nIngrese un numero valido");
 return 0;
 }
