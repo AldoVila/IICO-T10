@@ -16,43 +16,59 @@ int main ()
 	scanf("%i", &Opcion);
 	
 	if(Opcion=1)
-	{printf("\nSuma\n");
+	 {
+	 printf("\nSuma\n");
 	 printf("Introduza el primer numero: ");
 	 scanf("%i",&NS1);
 	 printf("Introduza el segundo numero: ");
 	 scanf("%i",&NS2);
 	 NS3=NS1+NS2;
 	 printf("El resultado es:%i",NS3);
-	}
-	if(Opcion=2);
-	{printf("\nResta\n");
-	 printf("Introduza el primer numero: ");
-	 scanf("%i",&NR1);
-	 printf("Introduza el segundo numero: ");
-	 scanf("%i",&NR2);
-	 NR3=NR1-NR2;
-	 printf("El resultado es:%i",NR3);
-	}
-	if(Opcion=3)
-	{printf("\nMultiplicacion\n");
-	 printf("Introduza el primer numero: ");
-	 scanf("%i",&NM1);
-	 printf("Introduza el segundo numero: ");
-	 scanf("%i",&NM2);
-	 NM3=NM1*NM2;
-	 printf("El resultado es:%i",NM3);
-	}
-	if(Opcion=4);
-	{printf("\nDivision\n");
-	 printf("Introduza el primer numero: ");
-	 scanf("%i",&ND1);
-	 printf("Introduza el segundo numero: ");
-	 scanf("%i",&ND2);
-	 ND3=ND1/ND2;
-	 printf("El resultado es:%i",ND3);
+	 }
+	else
+	{
+		if(Opcion=2)
+	 	{
+		printf("\nResta\n");
+	 	printf("Introduza el primer numero: ");
+	 	scanf("%i",&NR1);
+	 	printf("Introduza el segundo numero: ");
+	 	scanf("%i",&NR2);
+	 	NR3=NR1-NR2;
+	 	printf("El resultado es:%i",NR3);
+	    }
+	    else
+	{
+		if(Opcion=3)
+		{
+		printf("\nMultiplicacion\n");
+		printf("Introduza el primer numero: ");
+		scanf("%i",&NM1);
+		printf("Introduza el segundo numero: ");
+		scanf("%i",&NM2);
+		NM3=NM1*NM2;
+		printf("El resultado es:%i",NM3);
+		}
+		else
+	{
+		if(Opcion=4)
+		{
+		printf("\nDivision\n");
+	 	printf("Introduza el primer numero: ");
+	 	scanf("%i",&ND1);
+	 	printf("Introduza el segundo numero: ");
+	 	scanf("%i",&ND2);
+	 	ND3=ND1/ND2;
+	 	printf("El resultado es:%i",ND3);
+	 	}
+	 	else
+	    printf("\nIngrese un numero valido");
+	
 	}
 	
-	printf("\nIngrese un numero valido");
+	}
 	
+	}
+		
 return 0;
 }
