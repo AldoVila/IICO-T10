@@ -42,7 +42,16 @@ int main ()
 	 NM3=NM1*NM2;
 	 printf("El resultado es:%i",NM3);
 	}
-	else
+	if(Opcion=4);
+	{printf("\nDivision\n");
+	 printf("Introduza el primer numero: ");
+	 scanf("%i",&ND1);
+	 printf("Introduza el segundo numero: ");
+	 scanf("%i",&ND2);
+	 ND3=ND1/ND2;
+	 printf("El resultado es:%i",ND3);
+	}
+	
 	printf("\nIngrese un numero valido");
 	
 return 0;
